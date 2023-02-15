@@ -1,7 +1,10 @@
+import HeaderPage from "@/components/HeaderPage";
 
 const Projects = () => {
-    return `
-    <div>Projects</div>
+  return `
+    ${HeaderPage()}
+
+    
   `;
 }
 

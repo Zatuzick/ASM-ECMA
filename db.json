@@ -1,0 +1,45 @@
+{
+  "preamble": [
+    {
+      "id": 1,
+      "title": "Xin chào, tôi tên là ",
+      "name": "Văn Minh"
+    },
+    {
+      "id": 2,
+      "title": "Tôi làm ",
+      "job": "Web Developer"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "img": "",
+      "content": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "information": [
+    {
+      "id": 1,
+      "education": "FPT Polytechnic",
+      "phone": "0925318918",
+      "email": "zatuzick03@gmail.com",
+      "job": "Web Developer",
+      "address": "Dĩnh Kế, Bắc Giang"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "name": "Projects",
+      "link": "/projects"
+    }
+  ]
+}
