@@ -1,5 +1,15 @@
+import { useEffect, useState } from "@/utilities";
+
 
 const HeaderPage = () => {
+
+  const [data, setData] = useState([])
+  useEffect(() => {
+    fetch("http://localhost:3000/menus")
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  }, []);
+
   return `
   <div class="grid grid-cols-3 gap-4 border-b-2 border-black ">
   <div>
@@ -7,10 +17,12 @@ const HeaderPage = () => {
 
   </div>
   <div></div>
+  
   <div class="flex my-auto">
-      <a href="/" class="mx-6 font-bold text-2xl hover:text-red-500">Home</a>
-      <a href="/projects" class="mx-6 font-bold text-2xl hover:text-red-500">Projects</a>
-
+  ${data.map(
+    (menu, index) => `
+      <a href="${menu.link}" class="mx-6 font-bold text-2xl hover:text-red-500">${menu.name}</a>
+      `).join("")}
   </div>
 </div>
   `;

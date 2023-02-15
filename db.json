@@ -2,12 +2,10 @@
   "preamble": [
     {
       "id": 1,
-      "title": "Xin chào, tôi tên là ",
-      "name": "Văn Minh"
-    },
-    {
-      "id": 2,
-      "title": "Tôi làm ",
+      "img": "",
+      "title1": "Xin chào, tôi tên là ",
+      "name": "Văn Minh",
+      "title2": "Tôi làm ",
       "job": "Web Developer"
     }
   ],
@@ -16,13 +14,6 @@
       "id": 1,
       "img": "",
       "content": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "information": [
-    {
-      "id": 1,
       "education": "FPT Polytechnic",
       "phone": "0925318918",
       "email": "zatuzick03@gmail.com",
@@ -40,6 +31,44 @@
       "id": 2,
       "name": "Projects",
       "link": "/projects"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "img": "",
+      "name": "Web về trường học",
+      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS "
+    },
+    {
+      "id": 2,
+      "img": "",
+      "name": "Web Royalshine ",
+      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS"
+    },
+    {
+      "id": 3,
+      "img": "",
+      "name": "Web Utraphone ",
+      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP"
+    },
+    {
+      "id": 4,
+      "img": "",
+      "name": "Web về trường học4",
+      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS "
+    },
+    {
+      "id": 5,
+      "img": "",
+      "name": "Web Royalshine 5",
+      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS"
+    },
+    {
+      "id": 6,
+      "img": "",
+      "name": "Web Utraphone 6",
+      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP"
     }
   ]
 }
