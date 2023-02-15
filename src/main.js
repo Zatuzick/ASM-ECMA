@@ -1,23 +1,9 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+const app = document.querySelector('#app');
+import HomePage from "./pages/HomePage";
+import Projects from "./pages/Projects";
+import { render, router } from "./utilities";
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+router.on('/', () => render(HomePage, app));
+router.on('/projects', () => render(Projects, app));
 
-setupCounter(document.querySelector('#counter'))
+router.resolve();
