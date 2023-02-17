@@ -11,14 +11,11 @@ const HeaderPage = () => {
   }, []);
 
   return `
-  <div class="grid grid-cols-3 gap-4 border-b-2 border-black ">
+  <div class="grid grid-cols-1 md:grid-cols-2   gap-4 border-b-2 border-black ">
   <div>
-      <a href="/"><img src="src/img/ad.jpg" alt="" class="rounded-full w-20 h-20 my-2"></a>
-
+      <a href="/"><img src="src/img/ad.jpg" alt="" class="rounded-full mx-auto md:m-2 w-20 h-20 my-2"></a>
   </div>
-  <div></div>
-  
-  <div class="flex my-auto">
+  <div class="flex my-auto mx-auto">
   ${data.map(
     (menu, index) => `
       <a href="${menu.link}" class="mx-6 font-bold text-2xl hover:text-red-500">${menu.name}</a>

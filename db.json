@@ -2,7 +2,9 @@
   "preamble": [
     {
       "id": 1,
-      "img": "",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+      ],
       "title1": "Xin chào, tôi tên là ",
       "name": "Văn Minh",
       "title2": "Tôi làm ",
@@ -12,7 +14,9 @@
   "about": [
     {
       "id": 1,
-      "img": "",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+      ],
       "content": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
       "education": "FPT Polytechnic",
       "phone": "0925318918",
@@ -21,54 +25,176 @@
       "address": "Dĩnh Kế, Bắc Giang"
     }
   ],
+  "contact": [
+    {
+      "id": 1,
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611443/ECMA/sytkelh1vgecwxqgxibo.png",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611442/ECMA/tgt4qapgpd0ks3m8wz5a.png",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611444/ECMA/offgy4bhm1egsiambocp.png"
+      ]
+    }
+  ],
   "menus": [
     {
       "id": 1,
       "name": "Home",
-      "link": "/"
+      "link": "/#"
     },
     {
       "id": 2,
+      "name": "About",
+      "link": "/#About"
+    },
+    {
+      "id": 4,
       "name": "Projects",
-      "link": "/projects"
+      "link": "/#Projects"
+    },
+    {
+      "id": 5,
+      "name": "Skill",
+      "link": "/#Skill "
+    },
+    {
+      "id": 6,
+      "name": "Contact",
+      "link": "/#Contact"
     }
   ],
   "projects": [
     {
+      "name": "Web về trường học ",
+      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS  ",
       "id": 1,
-      "img": "",
-      "name": "Web về trường học",
-      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS "
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564427/ECMA/x3havtldm9xrkndikoxx.png"
+      ],
+      "link": [
+        "https://web-school-blush.vercel.app/"
+      ]
+    },
+    {
+      "name": "Web Utraphone",
+      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564535/ECMA/appjzyx0jmkofqgkyquh.png"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Web Royalshine",
+      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564578/ECMA/mbuwf9ozctjvq3gufnbh.png"
+      ],
+      "id": 3
+    },
+    {
+      "name": "X-Shop",
+      "describe": "Dự án web bán đồ điện tử,.. được code bằng HTML, CSS và PHP",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564740/ECMA/aqmjkdxckqp4ex6jrias.png"
+      ],
+      "id": 4
+    },
+    {
+      "name": "dự án 3",
+      "describe": "dự án có ảnh",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676607320/ECMA/r29mytq20tfjagiasxlp.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "dự án 5",
+      "describe": "dự án 5",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676607697/ECMA/ubtzdowkbbqupncbrepa.jpg"
+      ],
+      "id": 7
+    }
+  ],
+  "skill": [
+    {
+      "name": "HTML",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676610331/ECMA/einxlbb6ffccvfeqhkyr.png"
+      ],
+      "id": 3
+    },
+    {
+      "name": "CSS",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676610445/ECMA/aqk1xevhvzrybfagtrnk.png"
+      ],
+      "id": 4
+    },
+    {
+      "name": "JS",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676610469/ECMA/ofmcophkybsky1s7nopa.png"
+      ],
+      "id": 5
+    },
+    {
+      "name": "PHP",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676612651/ECMA/fjh1i6vanghpdam8iwpw.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "C#",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613444/ECMA/mq5j90tdnfpao0zjo9sm.png"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Word",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613809/ECMA/f7h8u4wshp0wpig6n4tu.png"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Execl",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613823/ECMA/zdnzmcocqjgucv2brgqj.png"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Powerpoint",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613857/ECMA/mbfvyfgrpvtkk9iyhnyt.png"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Java",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676615938/ECMA/nvly1kbyafm5csw4wqzc.png"
+      ],
+      "id": 13
+    }
+  ],
+  "menuAdmin": [
+    {
+      "id": 1,
+      "name": "Home",
+      "link": "/HomeAdmin"
     },
     {
       "id": 2,
-      "img": "",
-      "name": "Web Royalshine ",
-      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS"
+      "name": "Dự án",
+      "link": "/admin/project/list"
     },
     {
       "id": 3,
-      "img": "",
-      "name": "Web Utraphone ",
-      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP"
-    },
-    {
-      "id": 4,
-      "img": "",
-      "name": "Web về trường học4",
-      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS "
-    },
-    {
-      "id": 5,
-      "img": "",
-      "name": "Web Royalshine 5",
-      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS"
-    },
-    {
-      "id": 6,
-      "img": "",
-      "name": "Web Utraphone 6",
-      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP"
+      "name": "Skill",
+      "link": "/admin/skill/add"
     }
   ]
 }
