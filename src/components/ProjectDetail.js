@@ -19,7 +19,7 @@ const ProjectDetail = ({ id }) => {
 
   return `
   <div class="my-5">
-    <h1 class="text-6xl text-center font-bold border-b-2 hover:text-red-500 p-5"> <a href="/">Home </a></h1>
+    <h1 class="text-6xl text-center font-bold border-b-2 hover:text-red-500 p-5"> <a href="/" class="text-center">Home </a></h1>
   </div>
   <h3 class="text-center text-4xl font-bold hover:text-red-800">${project.name} </h3>
             <div class="  my-10 flex">
