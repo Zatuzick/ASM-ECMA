@@ -3,7 +3,8 @@
     {
       "id": 1,
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ],
       "title1": "Xin chào, tôi tên là ",
       "name": "Văn Minh",
@@ -14,7 +15,8 @@
   "imgs": [
     {
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ]
     }
   ],
@@ -22,7 +24,8 @@
     {
       "id": 1,
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ],
       "content": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
       "education": "FPT Polytechnic",
@@ -73,21 +76,12 @@
     {
       "name": "Web về trường học ",
       "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS  ",
-      "id": 1,
+      "linkweb": "https://web-school-blush.vercel.app/",
+      "linkcode": "https://github.com/Zatuzick/Web-School",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564427/ECMA/x3havtldm9xrkndikoxx.png"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676627160/ECMA/oxl2g85yjq6uss3g059i.png"
       ],
-      "link": [
-        "https://web-school-blush.vercel.app/"
-      ]
-    },
-    {
-      "name": "Web Utraphone",
-      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng HTML, CSS và PHP",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564535/ECMA/appjzyx0jmkofqgkyquh.png"
-      ],
-      "id": 2
+      "id": 1
     },
     {
       "name": "Web Royalshine",
@@ -95,31 +89,51 @@
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564578/ECMA/mbuwf9ozctjvq3gufnbh.png"
       ],
+      "linkweb": [
+        "http://127.0.0.1:5500/home.html"
+      ],
+      "linkcode": [
+        "https://github.com/Zatuzick/Web-Royalshine"
+      ],
       "id": 3
     },
     {
       "name": "X-Shop",
-      "describe": "Dự án web bán đồ điện tử,.. được code bằng HTML, CSS và PHP",
+      "describe": "Dự án web bán đồ điện tử,.. được code bằng PHP",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564740/ECMA/aqmjkdxckqp4ex6jrias.png"
+      ],
+      "linkweb": [
+        "http://localhost/X-Shop/"
+      ],
+      "linkcode": [
+        "https://github.com/Zatuzick/X-Shop"
       ],
       "id": 4
     },
     {
-      "name": "dự án 3",
-      "describe": "dự án có ảnh",
+      "name": "Web Utraphone",
+      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng PHP",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676607320/ECMA/r29mytq20tfjagiasxlp.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676624031/ECMA/r7kbybi47zfwqgmynkyd.png"
       ],
-      "id": 6
+      "linkweb": [
+        "http://localhost/duan1-ultraphone/"
+      ],
+      "linkcode": [
+        "https://github.com/Ctuanphuong/duan1-ultraphone"
+      ],
+      "id": 8
     },
     {
-      "name": "dự án 5",
-      "describe": "dự án 5",
+      "name": "Dự án xx dự án",
+      "describe": "xxx",
+      "linkweb": "dsaddas",
+      "linkcode": "dsada",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676607697/ECMA/ubtzdowkbbqupncbrepa.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676646141/ECMA/vyqmxfoz7oy1jcuvcmio.jpg"
       ],
-      "id": 7
+      "id": 9
     }
   ],
   "skill": [
@@ -195,13 +209,18 @@
     },
     {
       "id": 2,
-      "name": "Dự án",
-      "link": "/admin/project/list"
+      "name": "About",
+      "link": "/admin/about/list"
     },
     {
       "id": 3,
+      "name": "Projects",
+      "link": "/admin/project/list"
+    },
+    {
+      "id": 4,
       "name": "Skill",
-      "link": "/admin/skill/add"
+      "link": "/admin/skill/list"
     }
   ]
 }

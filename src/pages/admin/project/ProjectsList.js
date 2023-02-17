@@ -32,13 +32,14 @@ const ProjectsList = () => {
         ${HeaderAdmin()}
     <div>
         <h1 class="text-5xl text-center my-5 font-bold" >Quản lý dự án</h1>
-        <table class="table table-bordered">
+        <table class="table-auto mx-auto">
             <thead>
                 <tr class="text-2xl border-2">
                     <th class="border-2">Id</th>
                     <th class="w-2/5 border-2">Ảnh dự án</th>
                     <th class="border-2 w-40">Tên dự án</th>
-                    <th class="border-2">Mô tả</th>
+                    <th class="border-2 ">Mô tả dự án</th>
+                    
                     <th class="border-2"></th>
                 </tr>
             </thead>
@@ -51,14 +52,18 @@ const ProjectsList = () => {
                     <td class="border-2 "> <img src="${project.img}" alt=""   class="mx-auto my-3 w-96 h-56"></td>
                     <td class="border-2 p-5 font-medium">${project.name}</td>
                     <td class="border-2  font-medium p-5 w-96">${project.describe}</td>
+                    
                     <td class="border-2 p-10 ">
-                        <button data-id="${project.id
-                    }" class=" btn-remove bg-red-500 p-2 font-bold rounded-lg hover:bg-cyan-700">Remove</button>
-
-                    <button class=" btn-remove mx-10 bg-lime-600 font-bold p-2 rounded-lg  hover:bg-cyan-700">
-                        <a href="/admin/project/${project.id}/edit">Sửa</a>
-                        </button>
+                        <div class="mx-auto">
+                            <button data-id="${project.id
+                    }" class=" btn-remove bg-red-500 p-2 font-bold mx-auto rounded-lg hover:bg-cyan-700">Remove</button>
+                        </div>
                         
+                        <div class="mx-auto">
+                            <button class=" btn-remove  bg-lime-600 font-bold p-2 rounded-lg m-10  hover:bg-cyan-700">
+                                <a href="/admin/project/${project.id}/edit">Sửa</a>
+                            </button>
+                        </div>
                     </td>
                 </tr>
             `
@@ -70,7 +75,7 @@ const ProjectsList = () => {
     </div>
     </table>
     
-    <button class="my-8 bg-red-700 p-3 rounded-lg hover:bg-green-700" > <a href="/admin/project/add"  class="text-2xl  font-bold">Thêm dự án </a></button>
+    <button class="m-8 bg-red-700 p-3 rounded-lg hover:bg-green-700" > <a href="/admin/project/add"  class="text-2xl  font-bold">Thêm dự án </a></button>
          
      `;
 

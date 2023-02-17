@@ -9,7 +9,8 @@ const About = () => {
     }, []);
     return `
     <div id="About">
-    <h1 class="text-center text-5xl font-bold my-5">About</h1>
+    <div>
+    <h1 class="text-center text-5xl font-bold my-10">About</h1>
     <div class="mx-40 border-4 ">
         <h3 class="text-center text-3xl font-bold mt-5">Giới thiệu</h3>
         
@@ -19,7 +20,7 @@ const About = () => {
         (about, index) => `
         
             <div class="m-7">
-                <img src="${about.img}" alt="" class="border-2 mx-auto rounded-tl-3xl rounded-br-3xl max-w-md">
+                <img src="${about.img[0]}" alt="" class="border-2 mx-auto rounded-tl-3xl rounded-br-3xl max-w-md">
             </div>
             <div class="mt-5">
                 <p class="font-medium border-b-2 m-2 text-xl">${about.content}</p>
@@ -47,6 +48,7 @@ const About = () => {
         </div>
     </div>
 </div>
+    </div>
     `;
 }
 

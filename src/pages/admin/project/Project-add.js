@@ -6,6 +6,8 @@ const ProjectAdd = () => {
         const form = document.getElementById("form-add");
         const name = document.getElementById("name");
         const describe = document.getElementById("describe");
+        const linkweb = document.getElementById("linkweb");
+        const linkcode = document.getElementById("linkcode");
         const img = document.getElementById("img");
 
         form.addEventListener("submit", async function (e) {
@@ -16,6 +18,8 @@ const ProjectAdd = () => {
             const formData = {
                 name: name.value,
                 describe: describe.value,
+                linkweb: linkweb.value,
+                linkcode: linkcode.value,
                 img: urls,
 
             };
@@ -70,6 +74,14 @@ const ProjectAdd = () => {
             <labe class="text-2xl font-bold m-10">Mô tả dự án:</labe>
             <textarea  placeholder="Nhập mô tả dự án" id="describe"  class="p-2  w-60 rounded-md text-base font-medium h-10"></textarea>
         </div> 
+        <div class="my-3">
+            <labe class="text-2xl font-bold m-10">Link Web dự án:</labe>
+            <input  placeholder="Nhập link Web dự án" id="linkweb"  class="p-2 mx-5  w-60 rounded-md text-base font-medium h-10">
+        </div>
+        <div class="my-3">
+            <labe class="text-2xl font-bold m-10">Link Code dự án:</labe>
+            <input  placeholder="Nhập link Code dự án" id="linkcode"  class="p-2 mx-5  w-60 rounded-md text-base font-medium h-10">
+        </div>
         <div class="my-5">
             <labe class="text-2xl font-bold m-10">Ảnh dự án:</labe>
             <input type="file" id="img" multiple class="mx-5">

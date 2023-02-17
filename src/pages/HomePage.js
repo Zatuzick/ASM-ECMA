@@ -8,13 +8,20 @@ import Skill from "@/components/Skill";
 
 const HomePage = () => {
   return `
-    ${HeaderPage()}
-    ${Preamble()}
-    ${About()}
-    ${Projects()}
-    ${Skill()}
-    ${Contact()}
-    ${Footer()}
+  <div class="max-w-6xl py-10">
+  ${HeaderPage()}
+  </div>
+  
+  <div class="max-w-7xl mx-auto ">
+  
+  ${Preamble()}
+  ${About()}
+  ${Projects()}
+  ${Skill()}
+  ${Contact()}
+  ${Footer()}
+  </div>
+    
   `;
 }
 

@@ -52,12 +52,7 @@ const SkillList = () => {
                     <td class="border-2 p-5 font-medium">${skill.name}</td>
                     <td class="border-2 p-10 ">
                         <button data-id="${skill.id
-                    }" class=" btn-remove bg-red-500 p-2 font-bold rounded-lg hover:bg-cyan-700">Remove</button>
-
-                    <button class=" btn-remove mx-10 bg-lime-600 font-bold p-2 rounded-lg  hover:bg-cyan-700">
-                        <a href="/admin/skill/edit${skill.id}/edit">Sửa</a>
-                        </button>
-                        
+                    }" class=" btn-remove bg-red-500 p-2 font-bold mx-32 rounded-lg hover:bg-cyan-700">Remove</button>
                     </td>
                 </tr>
             `

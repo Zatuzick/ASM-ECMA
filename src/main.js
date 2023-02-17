@@ -9,6 +9,10 @@ import ProjectEdit from "./pages/admin/project/ProjectEdit";
 import HomeAdmin from "./pages/admin/HomeAdmin";
 import SkillAdd from "./pages/admin/skill/SkillAdd";
 import SkillList from "./pages/admin/skill/SkillList";
+import AboutList from "./pages/admin/about/AboutList";
+import AboutEdit from "./pages/admin/about/AboutEdit";
+
+
 
 
 
@@ -18,6 +22,10 @@ router.on('/', () => render(HomePage, app));
 router.on("/project/:id", ({ data }) => render(() => Project(data), app));
 router.on('/zalo', () => render(Zalo, app));
 router.on('/HomeAdmin', () => render(HomeAdmin, app));
+
+router.on('/admin/about/list', () => render(AboutList, app));
+router.on("/admin/about/:id/edit", ({ data }) => render(() => AboutEdit(data), app));
+
 router.on('/admin/project/add', () => render(ProjectAdd, app));
 router.on('/admin/project/list', () => render(ProjectsList, app));
 router.on("/admin/project/:id/edit", ({ data }) => render(() => ProjectEdit(data), app));
