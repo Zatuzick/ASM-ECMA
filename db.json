@@ -11,6 +11,13 @@
       "job": "Web Developer"
     }
   ],
+  "imgs": [
+    {
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg"
+      ]
+    }
+  ],
   "about": [
     {
       "id": 1,
