@@ -90,7 +90,7 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564578/ECMA/mbuwf9ozctjvq3gufnbh.png"
       ],
       "linkweb": [
-        "http://127.0.0.1:5500/home.html"
+        "https://web-royalshine.vercel.app/"
       ],
       "linkcode": [
         "https://github.com/Zatuzick/Web-Royalshine"
@@ -104,7 +104,7 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564740/ECMA/aqmjkdxckqp4ex6jrias.png"
       ],
       "linkweb": [
-        "http://localhost/X-Shop/"
+        "x-shop-oviptiegd-zatuzick.vercel.app"
       ],
       "linkcode": [
         "https://github.com/Zatuzick/X-Shop"
@@ -118,7 +118,7 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676624031/ECMA/r7kbybi47zfwqgmynkyd.png"
       ],
       "linkweb": [
-        "http://localhost/duan1-ultraphone/"
+        "duan1-ultraphone.vercel.app"
       ],
       "linkcode": [
         "https://github.com/Ctuanphuong/duan1-ultraphone"
@@ -126,12 +126,12 @@
       "id": 8
     },
     {
-      "name": "Dự án xx dự án",
-      "describe": "xxx",
-      "linkweb": "dsaddas",
-      "linkcode": "dsada",
+      "name": "Web Portfolio",
+      "describe": "Web giới thiệu về bản thân Code bằng JS",
+      "linkweb": "https://asm-ecma-sand.vercel.app/",
+      "linkcode": "https://github.com/Zatuzick/ASM-ECMA",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676646141/ECMA/vyqmxfoz7oy1jcuvcmio.jpg"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676902674/ECMA/amn0qbgzpjdndqsdjrwp.png"
       ],
       "id": 9
     }
@@ -171,27 +171,6 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613444/ECMA/mq5j90tdnfpao0zjo9sm.png"
       ],
       "id": 7
-    },
-    {
-      "name": "Word",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613809/ECMA/f7h8u4wshp0wpig6n4tu.png"
-      ],
-      "id": 10
-    },
-    {
-      "name": "Execl",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613823/ECMA/zdnzmcocqjgucv2brgqj.png"
-      ],
-      "id": 11
-    },
-    {
-      "name": "Powerpoint",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676613857/ECMA/mbfvyfgrpvtkk9iyhnyt.png"
-      ],
-      "id": 12
     },
     {
       "name": "Java",

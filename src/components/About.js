@@ -20,16 +20,16 @@ const About = () => {
         (about, index) => `
         
             <div class="m-7">
-                <img src="${about.img[0]}" alt="" class="border-2 mx-auto rounded-tl-3xl rounded-br-3xl max-w-md">
+                <img src="${about.img[1]}" alt="" class="border-2 mx-auto rounded-tl-3xl rounded-br-3xl max-w-sm">
             </div>
             <div class="mt-5">
                 <p class="font-medium border-b-2 m-2 text-xl">${about.content}</p>
 
                 <div class="mt-5">
                     <h4 class="font-bold text-2xl">Thông tin cơ bản</h4>
-                    <div class="grid grid-cols-2 gap-4">
+                    <div class="grid grid-cols-2 gap-3">
                         <div>
-                            <h4 class="text-xl font-medium mx-3 my-2">Học vấn: <span class="p-3"> ${about.education}</span></h4>
+                            <h4 class="text-xl font-medium mx-2 my-2">Học vấn: <span class="p-2"> ${about.education}</span></h4>
                             <h4 class="text-xl font-medium mx-3 my-2">Email: <span
                                     class="p-3">${about.email}</span></h4>
                         </div>

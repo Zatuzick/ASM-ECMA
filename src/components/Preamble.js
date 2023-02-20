@@ -8,6 +8,7 @@ const Preamble = () => {
             .then((response) => response.json())
             .then((data) => setData(data));
     }, []);
+
     return `
     <div></div>
     <div class="grid grid-cols-2 gap-4 pt-48 border-4 mt-20 " id="Preamble">
@@ -23,7 +24,7 @@ const Preamble = () => {
             </h3>
         </div>
             <div class="max-w-screen-sm my-4">
-                <img src="${preamble.img[0]}" alt="" width="80%" height="80%" class="rounded-full">
+                <img src="${preamble.img[1]}" alt="" width="80%" height="80%" class="rounded-full">
             </div>
             `).join("")}
         

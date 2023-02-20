@@ -25,7 +25,7 @@ const HeaderPage = () => {
   <div class="">
   ${img.map(
     (img, index) => `
-      <a href="/"><img src="${img.img[0]}" alt="" class="rounded-full ml-6  md:m-2 w-20 h-20 m-20"></a>
+      <a href="/"><img src="${img.img[1]}" alt="" class="rounded-full ml-6  md:m-2 w-20 h-20 m-20"></a>
       `).join("")}
   </div>
   

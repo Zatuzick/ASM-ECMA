@@ -21,7 +21,7 @@ const HeaderAdmin = () => {
   <div class="flex my-auto mx-auto">
   ${data.map(
     (menuAdmin, index) => `
-      <a href="${menuAdmin.link}" class="mx-6 font-bold text-2xl hover:text-red-500">${menuAdmin.name}</a>
+      <a href="${menuAdmin.link}" dât class="mx-6 font-bold text-2xl hover:text-red-500">${menuAdmin.name}</a>
       `).join("")}
   </div>
 </div>
