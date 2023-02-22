@@ -11,19 +11,19 @@ const AboutList = () => {
     }, []);
     return `
         ${HeaderAdmin()}
-    <div>
-        <h1 class="text-5xl text-center my-5 font-bold" >Quản lý About</h1>
+    <div class="mx-5">
+        <h1 class="text-5xl text-center my-5 font-bold" >Manage About</h1>
         <table class="table-auto mx-auto">
             <thead>
                 <tr class="text-2xl border-2">
-                    <th class="w-2/5 border-2">Ảnh giới thiệu</th>
-                    <th class="border-2 w-40">Tên trường</th>
-                    <th class="border-2">Ngành nghề</th>
-                    <th class="border-2 ">Số điện thoại</th>
+                    <th class="w-2/5 border-2">Intro photo</th>
+                    <th class="border-2 w-40">School's name</th>
+                    <th class="border-2">Profession</th>
+                    <th class="border-2 ">Phone</th>
                     <th class="border-2">Email</th>
-                    <th class="border-2">Địa chỉ</th>
-                    <th class="w-2/5 border-2">Nội dung giới thiệu</th>
-                    <th class="border-2"></th>
+                    <th class="border-2 p-3">Address</th>
+                    <th class="w-2/5 border-2">Content</th>
+                    <th class="border-2 "></th>
                 </tr>
             </thead>
         <tbody>
@@ -31,7 +31,7 @@ const AboutList = () => {
             .map(
                 (about, index) => `
                 <tr class="text-xl ">
-                    <td class="border-2 "> <img src="${about.img[0]}" alt=""   class="mx-auto my-3 w-96 h-56"></td>
+                    <td class="border-2 "> <img src="${about.img[1]}" alt=""   class="mx-auto p-2 my-3 w-96 h-56"></td>
                     <td class="border-2  font-medium p-5 ">${about.education}</td>
                     <td class="border-2 p-5 font-medium">${about.job}</td>
                     <td class="border-2 p-5 font-medium">${about.phone}</td>
@@ -42,7 +42,7 @@ const AboutList = () => {
                     <td class="border-2 p-10 ">     
                         <div class="mx-auto">
                             <button class=" btn-remove  bg-lime-600 font-bold p-2 rounded-lg m-10  hover:bg-cyan-700">
-                                <a href="/admin/about/${about.id}/edit">Sửa</a>
+                                <a href="/admin/about/${about.id}/edit">Edit</a>
                             </button>
                         </div>
                     </td>

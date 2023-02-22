@@ -70,28 +70,29 @@ const ProjectEdit = ({ id }) => {
             ${HeaderAdmin()}
             <div>
     
-            <h1 class="text-5xl text-center font-bold my-5">Sửa dự án</h1>
+            <h1 class="text-5xl text-center font-bold my-5">Add project</h1>
                 <form id="form-edit" class=" mx-96">
                         
                 <div>
-                    <labe class="text-2xl font-bold m-10">Tên dự án:</labe>
+                    <labe class="text-2xl font-bold m-10">Name project:</labe>
                     <input type="text" id="name" value="${project.name}" class="p-2 mx-6 w-60 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-3">
-                    <labe class="text-2xl font-bold m-10">Mô tả dự án:</labe>
+                    <labe class="text-2xl font-bold m-10">Describe project:</labe>
                     <input type="text"  value="${project.describe}" id="describe"  class="p-2  w-60 rounded-md text-base font-medium h-10"
-                </div> 
-                <div class="my-3">
-                    <labe class="text-2xl font-bold m-10">Link Web:</labe>
-                    <input type="text"  value="${project.linkweb}" id="linkweb"  class="p-2  w-60 rounded-md text-base font-medium h-10"
                 </div> 
                 <div class="my-3">
                     <labe class="text-2xl font-bold m-10">Link Code:</labe>
                     <input type="text"  value="${project.linkcode}" id="linkcode"  class="p-2  w-60 rounded-md text-base font-medium h-10"
                 </div>
                 <div class="my-5">
-                    <labe class="text-2xl font-bold m-10">Ảnh dự án:</labe>
+                    <labe class="text-2xl font-bold m-10">Project photo:</labe>
                     <input type="file" id="img" multiple class="mx-5">
+                    <div>
+                    <img src="${project.img}" class="mx-auto w-[260px] h-[390px]">
+                    <img src="${project.img}" class="mx-auto w-[260px] h-[390px]">
+                    </div>
+                    
                 </div>
                 <div class="my-5">
                     <button class=" btn-primary p-3 text-xl font-bold rounded-xl hover:bg-lime-600  bg-red-600 ml-32">Sửa</button>

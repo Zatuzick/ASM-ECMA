@@ -19,7 +19,7 @@ const HeaderPage = () => {
 
   return `
 
-  <div class=" mx-auto  top-0  backdrop-blur-sm  bg-white/30 fixed">
+  <div class=" mx-auto  top-0 shadow-slate-500 shadow-lg  backdrop-blur-sm  bg-white/30 fixed">
   <div class="grid grid-cols-1 md:grid-cols-2  gap-4    ">
   
   <div class="">
@@ -29,7 +29,7 @@ const HeaderPage = () => {
       `).join("")}
   </div>
   
-  <div class="flex my-auto mx-32">
+  <div class="flex my-auto ">
   ${data.map(
       (menu, index) => `
       <a href="${menu.link}" class="mx-6 font-bold text-2xl hover:text-red-500">${menu.name}</a>

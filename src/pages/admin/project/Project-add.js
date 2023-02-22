@@ -14,6 +14,7 @@ const ProjectAdd = () => {
             e.preventDefault();
 
             const urls = await uploadFiles(img.files);
+            console.log(urls);
 
             const formData = {
                 name: name.value,

@@ -7,13 +7,13 @@ const Skill = () => {
       .then((data) => setData(data));
   }, []);
   return `
-    <div id="Skill">
-        <div class="mx-32 border-2">
-        <h1 class="text-5xl font-bold text-center my-5">Skills</h1>
-        <div class="grid grid-cols-4 gap-5 mx-28 my-10">
+    <div id="Skill" class=" mt-10 mx-auto" >
+        <div class="py-16">
+        <h1 class="text-6xl font-bold text-center my-5">Skills</h1>
+        <div class="grid grid-cols-6 gap-4 mx-20 my-10">
         ${data.map(
     (skill, index) => `
-        <img src="${skill.img}" alt="" class="mx-auto  my-5 w-[144px] h-[144px] rounded-3xl">
+        <img src="${skill.img}" alt="" class="mx-auto  my-5 w-[100px] h-[100px] rounded-2xl">
         `).join("")}
   </div>
 </div>

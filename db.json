@@ -6,9 +6,9 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ],
-      "title1": "Xin chào, tôi tên là ",
-      "name": "Văn Minh",
-      "title2": "Tôi làm ",
+      "title1": "Hello! my Name Is ",
+      "name": "Van Minh",
+      "title2": "I do ",
       "job": "Web Developer"
     }
   ],
@@ -27,20 +27,33 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ],
-      "content": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
+      "content": "Currently, I am a 4th semester student at FPT Polytechnic. I started learning programming in October last year and most of the day I study coding. In addition to studying at school, I often learn more on F8 Fullstack and on Youtube channels like evondev, easy frontend, ...",
       "education": "FPT Polytechnic",
       "phone": "0925318918",
       "email": "zatuzick03@gmail.com",
       "job": "Web Developer",
-      "address": "Dĩnh Kế, Bắc Giang"
+      "address": "Dinh Ke, Bac Giang"
     }
   ],
   "contact": [
     {
       "id": 1,
+      "link": "https://www.facebook.com/profile.php?id=100010398076739",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611443/ECMA/sytkelh1vgecwxqgxibo.png",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611442/ECMA/tgt4qapgpd0ks3m8wz5a.png",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611443/ECMA/sytkelh1vgecwxqgxibo.png"
+      ]
+    },
+    {
+      "id": 2,
+      "link": "https://www.google.com/intl/vi/gmail/about/",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611442/ECMA/tgt4qapgpd0ks3m8wz5a.png"
+      ]
+    },
+    {
+      "id": 3,
+      "link": "/zalo",
+      "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611444/ECMA/offgy4bhm1egsiambocp.png"
       ]
     }
@@ -70,22 +83,43 @@
       "id": 6,
       "name": "Contact",
       "link": "/#Contact"
+    },
+    {
+      "id": 7,
+      "name": "HomeAdmin",
+      "link": "/HomeAdmin"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "HTML-CSS"
+    },
+    {
+      "id": 2,
+      "name": "PHP"
+    },
+    {
+      "id": 3,
+      "name": "JS"
     }
   ],
   "projects": [
     {
-      "name": "Web về trường học ",
-      "describe": "Web về trường Trung tâm GDTX Ngoại Ngữ-Tin Học tỉnh Bắc Giang code bằng HTML và CSS  ",
+      "name": "Web about school ",
+      "describe": "Website about the school Bac Giang Province Foreign Language and Informatics Education Center coded in HTML and CSS  ",
       "linkweb": "https://web-school-blush.vercel.app/",
       "linkcode": "https://github.com/Zatuzick/Web-School",
       "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676627160/ECMA/oxl2g85yjq6uss3g059i.png",
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676627160/ECMA/oxl2g85yjq6uss3g059i.png"
       ],
-      "id": 1
+      "id": 1,
+      "categoryId": 1
     },
     {
       "name": "Web Royalshine",
-      "describe": "Web bán hàng, trang sức: nhẫn cưới, vòng cổ,... code bằng HTML và CSS",
+      "describe": "Web sales, jewelry: wedding rings, necklaces, ... coded in HTML and CSS",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564578/ECMA/mbuwf9ozctjvq3gufnbh.png"
       ],
@@ -95,11 +129,12 @@
       "linkcode": [
         "https://github.com/Zatuzick/Web-Royalshine"
       ],
-      "id": 3
+      "id": 3,
+      "categoryId": 1
     },
     {
       "name": "X-Shop",
-      "describe": "Dự án web bán đồ điện tử,.. được code bằng PHP",
+      "describe": "Web project selling electronics, .. coded in PHP",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564740/ECMA/aqmjkdxckqp4ex6jrias.png"
       ],
@@ -109,11 +144,12 @@
       "linkcode": [
         "https://github.com/Zatuzick/X-Shop"
       ],
-      "id": 4
+      "id": 4,
+      "categoryId": 2
     },
     {
       "name": "Web Utraphone",
-      "describe": "Dự án nhóm đầu đời, web bán điện thoại code bằng PHP",
+      "describe": "The first group project in life, the web sells phones code in PHP",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676624031/ECMA/r7kbybi47zfwqgmynkyd.png"
       ],
@@ -123,17 +159,43 @@
       "linkcode": [
         "https://github.com/Ctuanphuong/duan1-ultraphone"
       ],
-      "id": 8
+      "id": 8,
+      "categoryId": 2
     },
     {
       "name": "Web Portfolio",
-      "describe": "Web giới thiệu về bản thân Code bằng JS",
+      "describe": "Web introduces itself Code in JS",
       "linkweb": "https://asm-ecma-sand.vercel.app/",
       "linkcode": "https://github.com/Zatuzick/ASM-ECMA",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676902674/ECMA/amn0qbgzpjdndqsdjrwp.png"
       ],
-      "id": 9
+      "id": 9,
+      "categoryId": 3
+    },
+    {
+      "name": "dsad",
+      "describe": "đá",
+      "linkweb": "",
+      "linkcode": "",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050979/ECMA/zrn1xjmgzwjnxmfejlxf.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050980/ECMA/tvs4xirjqskfbqddgeqr.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050982/ECMA/pn5cje7accxeelvh1fcy.png"
+      ],
+      "id": 10
+    },
+    {
+      "name": "sadsadsa",
+      "describe": "xsax",
+      "linkweb": "",
+      "linkcode": "",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054161/ECMA/vp74isd4uei1yyafd9bu.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054161/ECMA/fqlvm3w9ywntf1o1u9zv.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054162/ECMA/lcroh2pinghvxsho0yey.png"
+      ],
+      "id": 11
     }
   ],
   "skill": [

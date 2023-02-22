@@ -86,15 +86,15 @@ const AboutEdit = ({ id }) => {
                 <form id="form-edit" class=" mx-96">
                         
                 <div class="my-5 border-2 p-1">
-                    <labe class="text-2xl font-bold m-10">Tên trường:</labe>
+                    <labe class="text-2xl font-bold m-10">School's name:</labe>
                     <input type="text" id="education" value="${about.education}" class="p-2 mx-20 w-80 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
-                    <labe class="text-2xl font-bold m-10">Ngành nghề:</labe>
+                    <labe class="text-2xl font-bold m-10">Profession:</labe>
                     <input type="text" id="job" value="${about.job}" class="p-2 mx-20 w-80  rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
-                    <labe class="text-2xl font-bold m-10">Số điện thoại:</labe>
+                    <labe class="text-2xl font-bold m-10">Phone:</labe>
                     <input type="text" id="phone" value="${about.phone}" class="p-2 mx-20 w-80 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
@@ -102,19 +102,22 @@ const AboutEdit = ({ id }) => {
                     <input type="text" id="email" value="${about.email}" class="p-2 mx-40 w-80 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
-                    <labe class="text-2xl font-bold m-10">Địa chỉ:</labe>
+                    <labe class="text-2xl font-bold m-10">Address:</labe>
                     <input type="text" id="adderss" value="${about.address}" class="p-2 mx-36 w-80 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
-                    <labe class="text-2xl font-bold m-10">Nội dung giới thiệu:</labe>
+                    <labe class="text-2xl font-bold m-10">Content:</labe>
                     <input type="text" value="${about.content}" id="content"  class="p-2  w-80 rounded-md text-base font-medium ">
                 </div> 
                 <div class="my-5 border-2">
-                    <labe class="text-2xl font-bold m-10">Ảnh dự án:</labe>
+                    <labe class="text-2xl font-bold m-10">Intro photo:</labe>
                     ${data.map(
-        (about, index) => `<img src="${about.img[0]}" class="mx-auto">`).join("")}
-                    
-                    <input type="file" id="img" multiple class="mx-60 my-3">
+        (about, index) => ` <div class="flex p-3">
+                            <img src="${about.img[1]}" class="mx-auto w-[260px] h-[390px]">
+                            <img src="${about.img[0]}" class="mx-auto  h-[390px]">
+                    </div>`).join("")}
+                                
+                    <input type="file" id="img" multiple class="mx-10 my-3">
                 </div>
                 <div class="my-5">
                     <button class=" btn-primary p-3 text-xl font-bold rounded-xl hover:bg-lime-600  bg-red-600 ml-32">Sửa</button>

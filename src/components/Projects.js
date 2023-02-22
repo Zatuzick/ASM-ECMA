@@ -1,5 +1,7 @@
 import { useEffect, useState } from "@/utilities";
-const Projects = () => {
+
+const Projects = ({ projects }) => {
+
     const [data, setData] = useState([])
     useEffect(() => {
         fetch("http://localhost:3000/projects")
@@ -7,11 +9,10 @@ const Projects = () => {
             .then((data) => setData(data));
     }, []);
     return `
-    <div id="Projects">
-        <div class="my-5 border-2">
-        <h1 class="text-5xl font-bold text-center my-5">Projects</h1>
-        <div class="grid grid-cols-3 gap-5 mx-28 my-10">
-        ${data.map(
+    
+        <div id="all">
+        <div class="grid grid-cols-3 gap-5 mx-28 pb-5 my-10">
+        ${projects.map(
         (project, index) => `
         <div class="border-4 hover:border-red-600">
             
@@ -22,8 +23,8 @@ const Projects = () => {
             </a>
         </div>`).join("")}
   </div>
-</div>
-    </div>
+  </div>
+
     
   `;
 }
