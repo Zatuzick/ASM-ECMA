@@ -17,11 +17,16 @@ const Projects = ({ projects }) => {
         <div class="border-4 hover:border-red-600">
             
             <a href="/project/${project.id}"}>
-                <img src="${project.img}" alt=""  class="mx-auto my-5 p-3 rounded-3xl w-[416px] h-[207px]">
+                <img src="${project.img[0]}" alt=""  class="mx-auto my-5 p-3 rounded-3xl w-[416px] h-[207px]">
                 <h3 class="text-center text-2xl font-bold hover:text-red-800">${project.name} </h3>
                 <p class="text-center text-xl font-medium mb-5">${project.describe}</p>
             </a>
+            
         </div>`).join("")}
+
+
+        
+
   </div>
   </div>
 

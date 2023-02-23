@@ -20,8 +20,8 @@ const About = () => {
         (about, index) => `
         
             <div class="m-7">
-                <img src="${about.img[1]}" alt="" class="border-4 mx-auto rounded-3xl  max-w-sm">
-                <img src="${about.img[0]}" alt="" class="border-2  rounded-tl-3xl -mt-24 ml-52 rounded-br-3xl w-[154px] h-[229px]">
+                <img src="${about.img[0]}" alt="" class="border-4 mx-auto rounded-3xl  max-w-sm">
+                <img src="${about.img[1]}" alt="" class="border-2  rounded-tl-3xl -mt-24 ml-52 rounded-br-3xl w-[154px] h-[229px]">
             </div>
             <div class=" my-auto ml-20">
             <h3 class="text-center text-3xl font-bold  mt-5">Introduce</h3>

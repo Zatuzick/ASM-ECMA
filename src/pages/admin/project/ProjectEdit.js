@@ -12,7 +12,6 @@ const ProjectEdit = ({ id }) => {
         const form = document.querySelector("#form-edit");
         const name = document.querySelector("#name");
         const describe = document.getElementById("describe");
-        const linkweb = document.getElementById("linkweb")
         const linkcode = document.getElementById("linkcode")
 
 
@@ -23,7 +22,6 @@ const ProjectEdit = ({ id }) => {
             const formData = {
                 name: name.value,
                 describe: describe.value,
-                linkweb: linkweb.value,
                 linkcode: linkcode.value,
                 img: urls,
 
@@ -66,19 +64,20 @@ const ProjectEdit = ({ id }) => {
             return urls;
         }
     };
+
     return `
             ${HeaderAdmin()}
             <div>
     
-            <h1 class="text-5xl text-center font-bold my-5">Add project</h1>
+            <h1 class="text-5xl text-center font-bold my-5">Edit Project</h1>
                 <form id="form-edit" class=" mx-96">
                         
                 <div>
-                    <labe class="text-2xl font-bold m-10">Name project:</labe>
+                    <labe class="text-2xl font-bold m-10">Name:</labe>
                     <input type="text" id="name" value="${project.name}" class="p-2 mx-6 w-60 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-3">
-                    <labe class="text-2xl font-bold m-10">Describe project:</labe>
+                    <labe class="text-2xl font-bold m-10">Describe:</labe>
                     <input type="text"  value="${project.describe}" id="describe"  class="p-2  w-60 rounded-md text-base font-medium h-10"
                 </div> 
                 <div class="my-3">
@@ -88,10 +87,7 @@ const ProjectEdit = ({ id }) => {
                 <div class="my-5">
                     <labe class="text-2xl font-bold m-10">Project photo:</labe>
                     <input type="file" id="img" multiple class="mx-5">
-                    <div>
-                    <img src="${project.img}" class="mx-auto w-[260px] h-[390px]">
-                    <img src="${project.img}" class="mx-auto w-[260px] h-[390px]">
-                    </div>
+                    
                     
                 </div>
                 <div class="my-5">

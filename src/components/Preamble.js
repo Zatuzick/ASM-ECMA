@@ -26,11 +26,16 @@ const Preamble = () => {
                 ${preamble.job}
                 </marquee>
             </h3>
+            <div class="text-xl mx-auto my-32 hover:bg-cyan-800 text-white text-center font-bold w-36 p-2 rounded-2xl bg-cyan-600">
+            <a href="/src/img/ad1.png" download="" class="">Download CD</a>
+            </div>
         </div>
+        
             
             `).join("")}
-        
+            
     </div>
+    
   `;
 }
 

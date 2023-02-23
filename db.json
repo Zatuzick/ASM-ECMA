@@ -6,7 +6,7 @@
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
       ],
-      "title1": "Hello! my Name Is ",
+      "title1": "Hello! My Name Is ",
       "name": "Van Minh",
       "title2": "I do ",
       "job": "Web Developer"
@@ -22,22 +22,23 @@
   ],
   "about": [
     {
-      "id": 1,
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676553727/ECMA/chz8j1f6yzeunbpuiv20.jpg",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676622978/ECMA/inkwan6gizcfiksrfgrh.jpg"
-      ],
       "content": "Currently, I am a 4th semester student at FPT Polytechnic. I started learning programming in October last year and most of the day I study coding. In addition to studying at school, I often learn more on F8 Fullstack and on Youtube channels like evondev, easy frontend, ...",
       "education": "FPT Polytechnic",
       "phone": "0925318918",
       "email": "zatuzick03@gmail.com",
       "job": "Web Developer",
-      "address": "Dinh Ke, Bac Giang"
+      "address": "Dinh Ke, Bac Giang",
+      "img": [
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677058102/ECMA/jfxj2bnb67a2jlrue91k.jpg",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677058103/ECMA/fyqdgnwgecxboza5k1qg.jpg"
+      ],
+      "id": 1
     }
   ],
   "contact": [
     {
       "id": 1,
+      "name": "Facebook",
       "link": "https://www.facebook.com/profile.php?id=100010398076739",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611443/ECMA/sytkelh1vgecwxqgxibo.png"
@@ -45,6 +46,7 @@
     },
     {
       "id": 2,
+      "name": "Gmail",
       "link": "https://www.google.com/intl/vi/gmail/about/",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611442/ECMA/tgt4qapgpd0ks3m8wz5a.png"
@@ -52,6 +54,7 @@
     },
     {
       "id": 3,
+      "name": "Zalo",
       "link": "/zalo",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676611444/ECMA/offgy4bhm1egsiambocp.png"
@@ -108,11 +111,10 @@
     {
       "name": "Web about school ",
       "describe": "Website about the school Bac Giang Province Foreign Language and Informatics Education Center coded in HTML and CSS  ",
-      "linkweb": "https://web-school-blush.vercel.app/",
       "linkcode": "https://github.com/Zatuzick/Web-School",
       "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676627160/ECMA/oxl2g85yjq6uss3g059i.png",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676627160/ECMA/oxl2g85yjq6uss3g059i.png"
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677062458/ECMA/ppaeungkkeutw0qgbrsh.png",
+        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677122754/ECMA/vk6fj6qt607kexqxvz27.png"
       ],
       "id": 1,
       "categoryId": 1
@@ -122,9 +124,6 @@
       "describe": "Web sales, jewelry: wedding rings, necklaces, ... coded in HTML and CSS",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564578/ECMA/mbuwf9ozctjvq3gufnbh.png"
-      ],
-      "linkweb": [
-        "https://web-royalshine.vercel.app/"
       ],
       "linkcode": [
         "https://github.com/Zatuzick/Web-Royalshine"
@@ -138,9 +137,6 @@
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676564740/ECMA/aqmjkdxckqp4ex6jrias.png"
       ],
-      "linkweb": [
-        "x-shop-oviptiegd-zatuzick.vercel.app"
-      ],
       "linkcode": [
         "https://github.com/Zatuzick/X-Shop"
       ],
@@ -153,9 +149,6 @@
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676624031/ECMA/r7kbybi47zfwqgmynkyd.png"
       ],
-      "linkweb": [
-        "duan1-ultraphone.vercel.app"
-      ],
       "linkcode": [
         "https://github.com/Ctuanphuong/duan1-ultraphone"
       ],
@@ -165,37 +158,12 @@
     {
       "name": "Web Portfolio",
       "describe": "Web introduces itself Code in JS",
-      "linkweb": "https://asm-ecma-sand.vercel.app/",
       "linkcode": "https://github.com/Zatuzick/ASM-ECMA",
       "img": [
         "https://res.cloudinary.com/dvnui7zt1/image/upload/v1676902674/ECMA/amn0qbgzpjdndqsdjrwp.png"
       ],
       "id": 9,
       "categoryId": 3
-    },
-    {
-      "name": "dsad",
-      "describe": "đá",
-      "linkweb": "",
-      "linkcode": "",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050979/ECMA/zrn1xjmgzwjnxmfejlxf.jpg",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050980/ECMA/tvs4xirjqskfbqddgeqr.jpg",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677050982/ECMA/pn5cje7accxeelvh1fcy.png"
-      ],
-      "id": 10
-    },
-    {
-      "name": "sadsadsa",
-      "describe": "xsax",
-      "linkweb": "",
-      "linkcode": "",
-      "img": [
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054161/ECMA/vp74isd4uei1yyafd9bu.jpg",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054161/ECMA/fqlvm3w9ywntf1o1u9zv.jpg",
-        "https://res.cloudinary.com/dvnui7zt1/image/upload/v1677054162/ECMA/lcroh2pinghvxsho0yey.png"
-      ],
-      "id": 11
     }
   ],
   "skill": [
@@ -255,13 +223,23 @@
     },
     {
       "id": 3,
+      "name": "Categories",
+      "link": "/admin/categorys/list"
+    },
+    {
+      "id": 4,
       "name": "Projects",
       "link": "/admin/project/list"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Skill",
       "link": "/admin/skill/list"
+    },
+    {
+      "id": 6,
+      "name": "Contact",
+      "link": "/admin/contact/list"
     }
   ]
 }

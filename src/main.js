@@ -11,6 +11,11 @@ import SkillAdd from "./pages/admin/skill/SkillAdd";
 import SkillList from "./pages/admin/skill/SkillList";
 import AboutList from "./pages/admin/about/AboutList";
 import AboutEdit from "./pages/admin/about/AboutEdit";
+import ContactList from "./pages/admin/contact/ContactList";
+import ContactAdd from "./pages/admin/contact/ContactAdd";
+import CategoriesList from "./pages/admin/categories/CategoriesList";
+import CategoriesAdd from "./pages/admin/categories/CategoriesAdd";
+
 
 
 
@@ -32,6 +37,12 @@ router.on("/admin/project/:id/edit", ({ data }) => render(() => ProjectEdit(data
 
 router.on('/admin/skill/add', () => render(SkillAdd, app));
 router.on('/admin/skill/list', () => render(SkillList, app));
+
+router.on('/admin/contact/list', () => render(ContactList, app));
+router.on('/admin/contact/add', () => render(ContactAdd, app));
+
+router.on('/admin/categorys/list', () => render(CategoriesList, app));
+router.on('/admin/category/add', () => render(CategoriesAdd, app));
 
 
 router.resolve();

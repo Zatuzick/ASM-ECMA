@@ -103,7 +103,7 @@ const AboutEdit = ({ id }) => {
                 </div>
                 <div class="my-5 border-2">
                     <labe class="text-2xl font-bold m-10">Address:</labe>
-                    <input type="text" id="adderss" value="${about.address}" class="p-2 mx-36 w-80 rounded-md text-base font-medium" >
+                    <input type="text" id="address" value="${about.address}" class="p-2 mx-36 w-80 rounded-md text-base font-medium" >
                 </div>
                 <div class="my-5 border-2">
                     <labe class="text-2xl font-bold m-10">Content:</labe>
@@ -113,8 +113,9 @@ const AboutEdit = ({ id }) => {
                     <labe class="text-2xl font-bold m-10">Intro photo:</labe>
                     ${data.map(
         (about, index) => ` <div class="flex p-3">
-                            <img src="${about.img[1]}" class="mx-auto w-[260px] h-[390px]">
-                            <img src="${about.img[0]}" class="mx-auto  h-[390px]">
+                            <img src="${about.img[0]}" class="mx-auto w-[260px] ">
+                            <img src="${about.img[1]}" class="mx-auto  w-[260px]">
+                            <img src="${about.img[2]}" class="mx-auto  w-[260px]">
                     </div>`).join("")}
                                 
                     <input type="file" id="img" multiple class="mx-10 my-3">

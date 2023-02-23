@@ -28,13 +28,14 @@ const ProjectsList = () => {
         ${HeaderAdmin()}
     <div class="">
         <h1 class="text-5xl text-center p-5 font-bold" >Project Management</h1>
-        <table class="table-auto bg-gray-400 mx-auto">
+        <table class="table-auto bg-gray-300 mx-auto">
             <thead>
                 <tr class="text-2xl border-2">
                     <th class="border-2">Id</th>
-                    <th class="w-2/5 border-2">Project photo</th>
-                    <th class="border-2 w-40">Name project</th>
-                    <th class="border-2 ">Describe project</th>
+                    <th class="w-2/5 border-2">Image</th>
+                    <th class="border-2 w-40">Name</th>
+                    <th class="border-2 ">Describe</th>
+                    <th class="border-2 ">Category</th>
                     
                     <th class="border-2"></th>
                 </tr>
@@ -48,10 +49,11 @@ const ProjectsList = () => {
                     <td class="border-2 "> 
                         <img src="${project.img[0]}" alt=""   class="mx-auto my-3  w-64 ">
                         <img src="${project.img[1]}" alt=""   class="mx-auto my-3 w-64 ">
-                        <img src="${project.img[3]}" alt=""   class="mx-auto my-3 w-64 ">
+                        <img src="${project.img[2]}" alt=""   class="mx-auto my-3 w-64 ">
                     </td>
                     <td class="border-2 p-5 font-medium">${project.name}</td>
                     <td class="border-2  font-medium p-5 w-96">${project.describe}</td>
+                    <td class="border-2 p-5 font-medium">${project.categoryId}</td>
                     
                     <td class="border-2 p-10 ">
                         <div class="mx-auto">

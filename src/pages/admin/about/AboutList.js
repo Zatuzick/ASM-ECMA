@@ -11,7 +11,7 @@ const AboutList = () => {
     }, []);
     return `
         ${HeaderAdmin()}
-    <div class="mx-5">
+    <div class="mx-1">
         <h1 class="text-5xl text-center my-5 font-bold" >Manage About</h1>
         <table class="table-auto mx-auto">
             <thead>
@@ -31,7 +31,11 @@ const AboutList = () => {
             .map(
                 (about, index) => `
                 <tr class="text-xl ">
-                    <td class="border-2 "> <img src="${about.img[1]}" alt=""   class="mx-auto p-2 my-3 w-96 h-56"></td>
+                    <td class="border-2 ">
+                        <img src="${about.img[0]}" alt=""   class="mx-auto p-2 my-3 w-96 ">
+                        <img src="${about.img[1]}" alt=""   class="mx-auto p-2 my-3 w-96 ">
+                        <img src="${about.img[2]}" alt=""   class="mx-auto p-2 my-3 w-96 ">
+                    </td>
                     <td class="border-2  font-medium p-5 ">${about.education}</td>
                     <td class="border-2 p-5 font-medium">${about.job}</td>
                     <td class="border-2 p-5 font-medium">${about.phone}</td>

@@ -1,9 +1,10 @@
 import { router, useEffect } from "@/utilities";
 import axios from "axios";
-const SkillAdd = () => {
+const ContactAdd = () => {
     useEffect(() => {
         const form = document.getElementById("form-add");
         const name = document.getElementById("name");
+        const link = document.getElementById("link");
         const img = document.getElementById("img");
 
         form.addEventListener("submit", async function (e) {
@@ -16,13 +17,13 @@ const SkillAdd = () => {
                 img: urls,
 
             };
-            fetch("http://localhost:3000/skill", {
+            fetch("http://localhost:3000/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify(formData),
-            }).then(() => router.navigate("/admin/skill/list"));
+            }).then(() => router.navigate("/admin/contact/list"));
         });
     }, []);
 
@@ -54,21 +55,25 @@ const SkillAdd = () => {
     };
     return `<div>
     
-    <h1 class="text-5xl text-center font-bold my-5">Thêm Skill</h1>
+    <h1 class="text-5xl text-center font-bold my-5">Add Contact</h1>
         <form id="form-add" class=" mx-96">
                 
-        <div>
-            <labe class="text-2xl font-bold m-10">Tên Skill:</labe>
-            <input type="text" id="name" placeholder="Nhập Tên Skill" class="p-2 mx-6 w-60 rounded-md text-base font-medium" >
+        <div class="border-2 my-5">
+            <labe class="text-2xl font-bold m-10">Name:</labe>
+            <input type="text" id="name" placeholder="Name" class="p-2 mx-6 w-60 rounded-md bg-slate-400 text-base font-medium" >
         </div>
-        <div class="my-5">
-            <labe class="text-2xl font-bold m-10">Ảnh Skill:</labe>
+        <div class="border-2 my-5">
+            <labe class="text-2xl font-bold m-10">Link Contact:</labe>
+            <input type="text" id="name" placeholder="Link Contact" class="p-2 mx-6 w-60 rounded-md text-base font-medium" >
+        </div>
+        <div class="border-2 my-5">
+            <labe class="text-2xl font-bold m-10">image:</labe>
             <input type="file" id="img" multiple class="mx-5">
         </div>
         <div class="my-5">
-            <button class=" btn-primary p-3 text-xl font-bold rounded-xl hover:bg-lime-600  bg-red-600 ml-32">Thêm</button>
+            <button class=" btn-primary p-3 text-xl font-bold rounded-xl hover:bg-lime-600  bg-red-600 ml-32">Add </button>
             <button class=" btn-primary p-3 text-xl font-bold rounded-xl hover:bg-lime-600  bg-red-600 ml-52">
-                <a href="/admin/skill/list" >Danh sách</a>
+                <a href="/admin/contact/list" >Contact List</a>
             </button>
         </div>
         
@@ -76,6 +81,6 @@ const SkillAdd = () => {
     </div>`;
 };
 
-export default SkillAdd;
+export default ContactAdd;
 
 
